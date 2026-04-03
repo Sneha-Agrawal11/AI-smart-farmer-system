@@ -8,7 +8,7 @@ import {
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDDVLQdhDUEvzEIgJZn-kuvztkm-kSptmU",
+ apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "smart-farmer-system.firebaseapp.com",
   projectId: "smart-farmer-system",
   storageBucket: "smart-farmer-system.firebasestorage.app",
