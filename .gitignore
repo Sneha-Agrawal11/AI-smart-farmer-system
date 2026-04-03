@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Python cache (optional)
+__pycache__/
+**/__pycache__/
+
+# Environments & Private Keys
+.env
+**/.env
+firebase-service-account.json
+**/firebase-service-account.json
+service-account.json
+
+# Build & Dist directories
+build/
+**/build/
+dist/
+**/dist/
+.vite/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
