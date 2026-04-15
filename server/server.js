@@ -23,7 +23,19 @@ async function startServer() {
     });
 
     const app = express();
-    app.use(cors());
+    
+    // Configure CORS to allow frontend requests
+    app.use(cors({
+      origin: [
+        'http://localhost:3000', // Local development
+        'http://localhost:5173', // Vite dev server
+        'https://ai-smart-farmer-system.vercel.app', // Vercel production
+        process.env.FRONTEND_URL || '' // Environment variable for flexibility
+      ],
+      credentials: true,
+      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+      allowedHeaders: ['Content-Type', 'Authorization']
+    }));
     app.use(express.json());
     
     // Import routes AFTER DB connection
