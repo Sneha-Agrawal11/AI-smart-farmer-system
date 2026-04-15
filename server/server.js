@@ -9,9 +9,16 @@ async function startServer() {
 
     // Connect to MongoDB FIRST before defining models/routes
     await mongoose.connect(process.env.MONGO_URI, {
-      serverSelectionTimeoutMS: 30000,
+      serverSelectionTimeoutMS: 60000,
       socketTimeoutMS: 45000,
+      connectTimeoutMS: 30000,
       bufferCommands: true,
+      retryWrites: true,
+      w: "majority",
+      // Add connection pool configuration
+      maxPoolSize: 10,
+      minPoolSize: 2,
+      maxIdleTimeMS: 30000,
     });
     console.log("MongoDB Connected ✅");
 
