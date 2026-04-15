@@ -29,8 +29,7 @@ async function startServer() {
       origin: [
         'http://localhost:3000', // Local development
         'http://localhost:5173', // Vite dev server
-        'https://ai-smart-farmer-system.vercel.app', // Vercel production
-        process.env.FRONTEND_URL || '' // Environment variable for flexibility
+        'https://ai-smart-farmer-system.vercel.app' // Vercel production
       ],
       credentials: true,
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
