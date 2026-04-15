@@ -2,7 +2,8 @@ import axios from 'axios';
 import { RegisterRequest, LoginRequest } from './types';
 export * from './types';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+// Use environment variable for API URL, with fallback to localhost for development
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
