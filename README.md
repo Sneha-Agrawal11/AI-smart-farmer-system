@@ -358,27 +358,37 @@ npm run dev
 # 📸 Project Screenshots
 
 ## 🏠 Home Page
-_Add Screenshot Here_
+<img width="1362" height="680" alt="image" src="https://github.com/user-attachments/assets/03847621-dbb2-454a-8667-06359ef7f362" />
+
 
 ---
 
 ## 🌾 Crop Recommendation Page
-_Add Screenshot Here_
+<img width="1365" height="687" alt="image" src="https://github.com/user-attachments/assets/b18975c2-c12e-4bb6-b965-9090844a9041" />
+
 
 ---
 
 ## 🤖 AI Chatbot
-_Add Screenshot Here_
+<img width="1361" height="675" alt="image" src="https://github.com/user-attachments/assets/e24b57f3-d870-4f43-a917-68a8fbde8eb1" />
+
 
 ---
 
 ## 🎙️ Hindi Voice Assistant
-_Add Screenshot Here_
+<img width="1361" height="632" alt="image" src="https://github.com/user-attachments/assets/e58eaee5-db6d-4775-9644-6ea1140d6604" />
+
 
 ---
 
 ## 📊 Smart Dashboard
-_Add Screenshot Here_
+<img width="1361" height="631" alt="image" src="https://github.com/user-attachments/assets/9ad68cc7-e1f3-4c0f-aa6f-0372901a873f" />
+<img width="1359" height="637" alt="image" src="https://github.com/user-attachments/assets/24dba37e-02ca-4976-a5dc-fae381b7b5ca" />
+<img width="1364" height="637" alt="image" src="https://github.com/user-attachments/assets/9c533c4b-2f65-48e8-a681-c4b210cd1c76" />
+<img width="1360" height="632" alt="image" src="https://github.com/user-attachments/assets/6eea27e9-d91e-4310-bdd2-104dfbfec6e1" />
+
+
+
 
 ---
 
